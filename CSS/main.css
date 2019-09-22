@@ -1,5 +1,5 @@
 html {
-    margin: 0px;
+    margin:gi 0px;
     width: 100;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -10,9 +10,11 @@ body {
     bottom: 0;
 }
 .portfolio-hero {
-    background: url(../../../../Downloads/andre-benz-cXU6tNxhub0-unsplash.jpg);
-    height: 280vh;
+    background: url(../image/andre-benz-xQpkcU2MK9I-unsplash.jpg) no-repeat center center fixed;
+    height: 100vh;
     background-size:cover;
+    text-align: center;
+    color: white;
 }
 .portfolio-hero ul {
     margin: 1;
