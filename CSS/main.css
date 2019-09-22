@@ -1,0 +1,30 @@
+html {
+    margin: 0px;
+    width: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+body {
+    margin: 0px;
+    top: 0;
+    bottom: 0;
+}
+.portfolio-hero {
+    background: url(../../../../Downloads/andre-benz-cXU6tNxhub0-unsplash.jpg);
+    height: 280vh;
+    background-size:cover;
+}
+.portfolio-hero ul {
+    margin: 1;
+    display: block;
+    justify-content: center;
+    padding-top: 25px;
+
+
+}
+.portfolio-hero .menu-icon {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
