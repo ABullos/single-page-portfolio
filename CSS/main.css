@@ -10,23 +10,42 @@ body {
     bottom: 0;
 }
 .portfolio-hero {
-    background: url(../image/andre-benz-xQpkcU2MK9I-unsplash.jpg) no-repeat center center fixed;
+    background: url(../image/AB.jpg) no-repeat center center fixed;
     height: 100vh;
     background-size:cover;
     text-align: center;
     color: white;
 }
-.portfolio-hero ul {
-    margin: 1;
-    display: block;
+.portfolio-menu ul {
+    margin: 0;
+    display: flex;
     justify-content: center;
-    padding-top: 25px;
-
 
 }
-.portfolio-hero .menu-icon {
+.portfolio-menu ul li{
+    margin: 0px 10px;
+    list-style:  none;
+    padding-top: 5px;
+
+}
+
+.portfolio-menu .menu-item a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
 
+}
+.portfolio-profile {
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+.portfolio-profile img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
 }
