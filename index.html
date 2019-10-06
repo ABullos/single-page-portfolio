@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Andrea Bullos </title>
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="portfolio-hero">
+            <div class="portfolio-menu">
+                <ul class="nav-menu">
+                    <li class="menu-item"><a href="#home">Home</a> </li>
+                    <li class="menu-item"><a href="#about"> About</a></li>
+                    <li class="menu-item"><a href="#skills"> Skills</a></li>
+                    <li class="menu-item>"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="portfolio-profile">
+            <img alt="profile-pict" src="./image/me.jpg">
+            <h1> ANDREA BULLOS</h1>
+            <h4>Confused</h4>
+        </div>
+    </header>
+    <main>
+        <div id="about">
+            <h2> About Me </h2>
+            <p>My name is Andrea Bullos, my friends call me Andi. I am 19 years old. Born in Taguig City. Graduated High
+                School from Seven Pillars.
+                Currently, Studying B.S Information Technology in Adventist University of the Philippines.
+            </p>
+
+        </div>
+        <div id="skills">
+            <h2> Skills </h2>
+            <div class="skill-main-grid">
+
+                <div class="skill-grid1">
+                    <h3> Art </h3>
+                    <p> At a young age, I would always watch my mom do her artworks. She does art crafts. I believe I
+                        got my artistic side from my mother.
+                        I like doing crafts and D.I.Ys. Recently, I have been enjoying painting. It started with
+                        watercolor painting but I would like to broaden
+                        my horizon and play around with acrylics.
+                    </p>
+                </div>
+                <div class="skill-grid2">
+                    <h3> Music </h3>
+                    <p>Since at a young age, I have always loved singing. Growing up, I practiced my voice, trying to
+                        know more about what songs suits me and what I can do with my voice,
+                        how to control it. In highschool, I joined our church's choir. Now, I'm just doing covers of
+                        songs.
+                    </p>
+                </div>
+                <div class="skill-grid3">
+                    <h3> Programming</h3>
+                    <p>The interest in programming started in High school.I always thought knwoing hoe to program is
+                        cool. College came and now I know how to do at least basic programming.
+                        If hello world counts then I am good.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <form class="portfolio-form">
+                <h2>Send me a message</h2>
+                <div class="form-row">
+                    <label class="form-label">Subject:</label>
+                    <div class="form-input">
+                        <input id="mailSubject" class="form-input-text" type="text">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label class="form-label">Message:</label>
+                    <div class="form-input">
+                        <textarea id="mailMessage" class="form-input-textarea"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-submit">
+                    <a onmouseover="appendMailTo()" id="sendMail" href="mailto:andreabullos99@gmail.com"
+                        class="btn-submit">Submit</a>
+                </div>
+            </form>
+
+        </div>
+    </main>
+</body>
+<div class ="footer">
+    Copyright &copy;
+    <span id="getYear"></span>
+    
+</footer>
+
+<script src="../single-page-portfolio/main.js"></script>
+
+</html>

@@ -1,0 +1,165 @@
+html {
+    margin: 0px;
+    width: 100;
+    font-family:'Courier New', Courier, monospace;
+
+}
+body {
+    margin: 0px;
+    top: 0;
+    bottom: 0;
+    background: url(../image/err.jpg) no-repeat center center fixed;
+    background-size:cover;
+}
+.portfolio-hero {
+    
+    height: 100vh;
+    
+    color:whitesmoke;
+}
+.portfolio-menu ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+
+}
+.portfolio-menu ul li{
+    margin: 0px 5px;
+    list-style:  none;
+    padding-top: 0;
+    width: 5%;
+   
+
+}
+
+.portfolio-menu .menu-item a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.portfolio-profile {
+    width: 650px;
+    color: #C5BCB7;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+.portfolio-profile img {
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+}
+.portfolio-profile h1 {
+    font-weight: 300;
+    margin: 15px;
+    font-size: 3.2 rem;
+    font-family: 'Courier New', Courier, monospace
+}
+/* main */
+main {
+    margin: 0;
+    padding: 0;
+    background-color: #8d0035;
+    text-align: center;
+
+}
+#about h2 {
+    text-align: center;
+    padding: 10px;
+    color: #C5BCB7;
+    font-family: 'Courier New', Courier, monospace
+}
+#about p {
+    font-size: 1.2rem;
+    color: #C5BCB7;
+    font-weight: 50;
+    font-family: 'Courier New', Courier, monospace
+}
+#skills h2 {
+    
+    font-size: 1.8rem;
+    color:#C5BCB7;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace
+}
+#skills h3 {
+    
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-style: oblique; 
+    color: #C5BCB7;
+    font-family: 'Courier New', Courier, monospace
+
+}
+
+.skill-main-grid {
+    display: grid;
+    color: #C5BCB7;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    font-family: 'Courier New', Courier, monospace
+}
+.skill-main-grid h2 {
+    font-size: 1.2rem;
+}
+.portfolio-form {
+    background: #8d0035;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color:#C5BCB7;
+}
+.form-label {
+    padding: 10px 0px;
+    font-size: 1.3rem;
+}
+.form-input input {
+    width: 50%;
+    padding: 7px 0px;
+    border-radius:8px;
+}
+.form-input input:focus {
+    transition: .7s;
+    border-color: #8d0035;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #8d0035
+}
+.form-input-textarea {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    width: 50%;
+    padding: 7px 0px;
+    height: 100px;
+}
+.form-input-textarea textarea:focus {
+    transition: .7s;
+    border-color: black;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #8d0035
+}
+.form-submit {
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    background-color: #8d0035;
+
+}
+.btn-submit {
+    padding: 5px 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #C5BCB7 ;
+    background-color: #000b1D;
+
+}
+.footer {
+    color: white;
+    text-align: center;
+    padding:20px;
+    background: #8d0035;
+    
+}
