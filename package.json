@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "single page portfolio",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABullos/single-page-portfolio.git"
+  },
+  "author": "Andrea Bullos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ABullos/single-page-portfolio/issues"
+  },
+  "homepage": "https://github.com/ABullos/single-page-portfolio#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "devDependencies": {}
+}

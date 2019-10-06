@@ -1,7 +1,7 @@
 html {
     margin: 0px;
     width: 100;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Courier New', Courier, monospace;
 
 }
 body {
@@ -22,11 +22,14 @@ body {
     display: flex;
     justify-content: center;
 
+
 }
 .portfolio-menu ul li{
     margin: 0px 5px;
     list-style:  none;
     padding-top: 0;
+    width: 5%;
+   
 
 }
 
@@ -38,6 +41,7 @@ body {
 }
 .portfolio-profile {
     width: 650px;
+    color: #C5BCB7;
     height: 400px;
     position: absolute;
     left: 50%;
@@ -78,16 +82,17 @@ main {
 }
 #skills h2 {
     
-    font-size: 2.5rem;
-    color: #C5BCB7;
-    font-weight: 300;
+    font-size: 1.8rem;
+    color:#C5BCB7;
+    font-weight: 500;
     font-family: 'Courier New', Courier, monospace
 }
 #skills h3 {
     
-    font-size: 2.8rem;
-
+    font-size: 1.8rem;
     font-weight: 500;
+    font-style: oblique; 
+    color: #C5BCB7;
     font-family: 'Courier New', Courier, monospace
 
 }
@@ -100,14 +105,20 @@ main {
     font-family: 'Courier New', Courier, monospace
 }
 .skill-main-grid h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+}
+.portfolio-form {
+    background: #8d0035;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color:#C5BCB7;
 }
 .form-label {
     padding: 10px 0px;
     font-size: 1.3rem;
 }
 .form-input input {
-    width: 100%;
+    width: 50%;
     padding: 7px 0px;
     border-radius:8px;
 }
@@ -120,30 +131,35 @@ main {
 .form-input-textarea {
     font-family: 'Courier New', Courier, monospace;
     border-radius: 10px;
-    width: 100%;
+    width: 50%;
     padding: 7px 0px;
-    height: 200px;
+    height: 100px;
 }
 .form-input-textarea textarea:focus {
     transition: .7s;
-    border-color: #C5BCB7;
+    border-color: black;
     outline: 0;
     box-shadow: 0 0 0 0.2rem #8d0035
 }
 .form-submit {
     margin-top: 5px;
-    text-align: right;
+    text-align: center;
+    color: white;
+    background-color: #8d0035;
+
 }
 .btn-submit {
     padding: 5px 15px;
     text-decoration: none;
-    color: antiquewhite;
-    background-color: cadetblue;
+    text-align: center;
+    color: #C5BCB7 ;
+    background-color: #000b1D;
 
 }
 .footer {
     color: white;
     text-align: center;
-    padding: 20px;
-
+    padding:20px;
+    background: #8d0035;
+    
 }
